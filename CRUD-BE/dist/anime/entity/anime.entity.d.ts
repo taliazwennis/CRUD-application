@@ -4,6 +4,6 @@ export declare class Anime {
     name: string;
     genres: Genres[];
     description: string;
-    releaseYear: string;
+    releaseYear: number;
     rating: number;
 }

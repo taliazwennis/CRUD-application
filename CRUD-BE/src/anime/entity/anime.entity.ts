@@ -22,8 +22,8 @@ export class Anime {
   @Column({ type: 'text' })
   description: string;
 
-  @Column({ type: 'text' })
-  releaseYear: string;
+  @Column({ type: 'int' })
+  releaseYear: number;
 
   @Column({ type: 'int' })
   rating: number;

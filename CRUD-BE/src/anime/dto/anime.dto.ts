@@ -15,9 +15,9 @@ export class AnimeDto {
   @IsNotEmpty()
   description: string;
 
-  @IsString()
+  @IsInt()
   @IsNotEmpty()
-  releaseYear: string;
+  releaseYear: number;
 
   @IsInt()
   @IsNotEmpty()

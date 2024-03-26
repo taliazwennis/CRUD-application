@@ -32,9 +32,9 @@ __decorate([
     __metadata("design:type", String)
 ], AnimeDto.prototype, "description", void 0);
 __decorate([
-    (0, class_validator_1.IsString)(),
+    (0, class_validator_1.IsInt)(),
     (0, class_validator_1.IsNotEmpty)(),
-    __metadata("design:type", String)
+    __metadata("design:type", Number)
 ], AnimeDto.prototype, "releaseYear", void 0);
 __decorate([
     (0, class_validator_1.IsInt)(),
