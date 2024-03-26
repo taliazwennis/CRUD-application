@@ -16,7 +16,7 @@ This application was developed to provide users with the ability to manage anime
 - Nest.JS
 - Fastify
 - TypeORM
-- Postgres
+- PostgreSQL
 - Typescript
 
 ## Database Architecture
@@ -29,7 +29,7 @@ Features I would like to add with extended time:
  - Add pagination
  - Add sorting to table columns
  - Add a delete dialog before allowing user to delete anime entry
- - Add global css styling for example, having global colours
+ - Add global css styling for example; having global colours
  - Add an edit and delete feature for the different genres
 
 ## Prerequisites
@@ -40,11 +40,11 @@ Features I would like to add with extended time:
 ## Set up
 
 ```bash
-sudo npm install
+npm install
 ```
 
 ```bash
-sudo npm run start
+npm run start
 ```
 ## Environmental Variables (Backend only)
 
