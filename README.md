@@ -28,7 +28,7 @@ Features I would like to add with extended time:
  - Add sorting to tablke columns
  - Add a delete dialog before allowing user to delete anime entry
  - Add global css styling for example, having global colours
- - Add in an edit and delete feature for the different genres
+ - Add an edit and delete feature for the different genres
 
 ## Prerequisites
 - Node: ^v16.20.2
