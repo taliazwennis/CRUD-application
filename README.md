@@ -9,6 +9,7 @@ This application was developed to provide users with the ability to manage anime
 - React
 - Material UI
 - CSS
+- Typescript
 
 ### Backend
 
@@ -16,6 +17,7 @@ This application was developed to provide users with the ability to manage anime
 - Fastify
 - TypeORM
 - Postgres
+- Typescript
 
 ## Database Architecture
 
@@ -25,7 +27,7 @@ This application was developed to provide users with the ability to manage anime
 
 Features I would like to add with extended time: 
  - Add pagination
- - Add sorting to tablke columns
+ - Add sorting to table columns
  - Add a delete dialog before allowing user to delete anime entry
  - Add global css styling for example, having global colours
  - Add an edit and delete feature for the different genres
@@ -33,6 +35,7 @@ Features I would like to add with extended time:
 ## Prerequisites
 - Node: ^v16.20.2
 - Npm: ^v8.19.4
+- PostgreSQL 15
 
 ## Set up
 
@@ -43,7 +46,15 @@ sudo npm install
 ```bash
 sudo npm run start
 ```
+## Environmental Variables (Backend only)
 
+```bash
+DATABASE_HOST=${DATABASE_HOST}
+DATABASE_PORT=${DATABASE_PORT}
+DATABASE=${DATABASE}
+DATABASE_USERNAME=${DATABASE_USERNAME}
+DATABASE_PASSWORD=${DATABASE_PASSWORD}
+```
 
 
 
